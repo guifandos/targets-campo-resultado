@@ -1,5 +1,7 @@
 # Pipelines reproducibles del campo al resultado con `targets`
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22923911.svg)](https://doi.org/10.5281/zenodo.22923911)
+
 Material del taller de 45 minutos de las
 [**II Jornadas de Ecoinformática de la AEET**](https://ecoinfaeet.github.io/II_jornadas_ecoinf/)
 (jueves 1 de octubre de 2026, 17:15–18:00, Sala Posidonia, Fundación
@@ -165,8 +167,11 @@ Si usas o adaptas este material, cítalo así (GitHub también ofrece la cita en
 «Cite this repository», a partir de `CITATION.cff`):
 
 > Fandos, G. (2026). *Pipelines reproducibles del campo al resultado con
-> targets* [Material docente]. II Jornadas de Ecoinformática de la AEET,
-> Sevilla. https://github.com/guifandos/targets-campo-resultado
+> targets: material del taller de las II Jornadas de Ecoinformática de la AEET*
+> (v1.0.0) [Material docente]. Zenodo. https://doi.org/10.5281/zenodo.22923912
+
+El DOI [10.5281/zenodo.22923911](https://doi.org/10.5281/zenodo.22923911)
+apunta siempre a la versión más reciente.
 
 Y cita `targets`: Landau, W. M. (2021). The targets R package: a dynamic
 Make-like function-oriented pipeline toolkit for reproducibility and
