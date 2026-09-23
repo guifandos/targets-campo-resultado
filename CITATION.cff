@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "Si usas o adaptas este material, cítalo así."
+type: software
+title: "Pipelines reproducibles del campo al resultado con targets"
+abstract: >-
+  Material del taller de las II Jornadas de Ecoinformática de la AEET
+  (Sevilla, 2026). Dos pipelines de targets en R, ecoacústica y fototrampeo,
+  con una rama por archivo, control de calidad y una tabla lista para analizar.
+authors:
+  - family-names: Fandos
+    given-names: Guillermo
+    affiliation: Universidad Complutense de Madrid
+    email: gfandos@ucm.es
+repository-code: "https://github.com/guifandos/targets-campo-resultado"
+license: MIT
+keywords:
+  - targets
+  - R
+  - reproducibility
+  - ecology
+  - ecoacoustics
+  - camera traps
+references:
+  - type: article
+    title: "The targets R package: a dynamic Make-like function-oriented pipeline toolkit for reproducibility and high-performance computing"
+    authors:
+      - family-names: Landau
+        given-names: William Michael
+    journal: Journal of Open Source Software
+    volume: 6
+    issue: 57
+    start: 2959
+    year: 2021
+    doi: 10.21105/joss.02959
