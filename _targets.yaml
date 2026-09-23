@@ -1,0 +1,3 @@
+fototrampeo:
+  script: fototrampeo/_targets.R
+  store: fototrampeo/_targets

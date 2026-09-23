@@ -1,0 +1,32 @@
+# Datos crudos y procesados: no van a git (pesados y/o sensibles)
+data_raw/*
+!data_raw/README.md
+# Excepción: los datos de EJEMPLO del taller SÍ se versionan (para clone-and-run)
+!data_raw/AM01/
+!data_raw/AM01/**
+!data_raw/AM02/
+!data_raw/AM02/**
+data/*
+!data/sites.csv
+!data/sites_duplicate.csv
+output/*
+!output/.gitkeep
+fototrampeo/output/*
+!fototrampeo/output/.gitkeep
+
+# targets
+_targets/
+
+# renv
+renv/library/
+
+# RStudio y sistema
+.Rproj.user
+.Rhistory
+.DS_Store
+Thumbs.db
+~$*
+
+# --- Material interno del ponente (NO se sube al repo) ---
+GUIA_PONENTE.md
+slides/
