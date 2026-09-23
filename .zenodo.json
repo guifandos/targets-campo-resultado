@@ -1,0 +1,37 @@
+{
+  "upload_type": "lesson",
+  "title": "Pipelines reproducibles del campo al resultado con targets: material del taller de las II Jornadas de Ecoinformática de la AEET",
+  "creators": [
+    {
+      "name": "Fandos, Guillermo",
+      "affiliation": "Universidad Complutense de Madrid",
+      "orcid": "0000-0003-1579-9444"
+    }
+  ],
+  "description": "<p>Material docente del taller de 45 minutos «Pipelines reproducibles del campo al resultado con targets», impartido en las II Jornadas de Ecoinformática de la Asociación Española de Ecología Terrestre (AEET), Fundación Biodiversidad, Sevilla, 1 de octubre de 2026.</p><p>Enseña a construir en R un flujo de trabajo reproducible con el paquete <em>targets</em> que parte de los datos tal y como salen del campo y produce una tabla lista para analizar. Incluye dos casos con el mismo esqueleto: ecoacústica (grabaciones de AudioMoth, control de calidad de metadatos e índices acústicos) y fototrampeo (tablas de etiquetado por tarjeta, control del reloj de la cámara, eventos independientes y tasas de detección por esfuerzo). Cada archivo o tarjeta se procesa como una rama independiente, de modo que los datos nuevos o modificados solo recalculan su parte.</p><p>Contiene los dos pipelines, un guion de ejercicios con las salidas esperadas, un script de comprobación del equipo, datos de ejemplo (en parte sintéticos, generados con semilla fija), las versiones de paquetes (renv.lock) y las diapositivas en PDF.</p><p><em>English:</em> Teaching material for a 45-minute workshop on reproducible pipelines in R with the targets package, using ecoacoustic and camera-trap data from raw field files to analysis-ready tables.</p>",
+  "language": "spa",
+  "keywords": [
+    "targets",
+    "R",
+    "reproducibilidad",
+    "reproducibility",
+    "pipelines",
+    "ecoacústica",
+    "ecoacoustics",
+    "fototrampeo",
+    "camera traps",
+    "ecoinformática",
+    "AEET",
+    "material docente"
+  ],
+  "license": "cc-by-4.0",
+  "version": "1.0.0",
+  "notes": "El código (archivos .R y de configuración) tiene licencia MIT (archivo LICENSE); los textos, la documentación y los datos de ejemplo, CC BY 4.0 (LICENSE-CONTENT.md). Las imágenes de terceros de docs/presentacion.pdf mantienen su propia licencia; los créditos están en la última diapositiva.",
+  "related_identifiers": [
+    {
+      "identifier": "10.21105/joss.02959",
+      "relation": "references",
+      "resource_type": "publication-article"
+    }
+  ]
+}
