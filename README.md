@@ -66,6 +66,15 @@ modelos de distribución (una rama por especie).
 > **Windows:** no pongas la carpeta dentro de OneDrive; la sincronización
 > interfiere con la caché de `targets`.
 
+## Versiones de paquetes
+
+`renv.lock` registra las versiones con las que se probó el material: R 4.5.3,
+`targets` 1.12.0, `tarchetypes` 0.14.1, `tuneR` 1.4.7, `seewave` 2.2.4,
+`dplyr` 1.2.0 y `visNetwork` 2.1.4, más sus dependencias. **`renv` no está
+activado:** el taller funciona con las versiones que tengas instaladas y no hace
+falta hacer nada con este archivo. Si quieres reproducir exactamente ese
+entorno, [`renv`](https://rstudio.github.io/renv/) lo reconstruye a partir de él.
+
 ## Ejecutar
 
 ```r
@@ -145,6 +154,7 @@ targets-campo-resultado/
 ├── fototrampeo/        # segundo caso: cámaras trampa (con su propio README)
 ├── practica.R          # ejercicios
 ├── check_setup.R       # comprobación del equipo
+├── renv.lock           # versiones de R y de los paquetes (renv sin activar)
 ├── tools/              # scripts que generan los datos sintéticos
 └── docs/               # presentacion.pdf y recursos.md (targets, herramientas, lecturas)
 ```
