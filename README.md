@@ -84,6 +84,10 @@ Sys.unsetenv("TAR_PROJECT")
 `targets::tar_progress_branches()` muestra qué ramas se ejecutaron y cuáles
 salieron de la caché.
 
+## Presentación
+
+Las diapositivas del taller, en PDF: [`docs/presentacion.pdf`](docs/presentacion.pdf).
+
 ## Ejercicios
 
 Están en `practica.R`, con la salida esperada de cada paso:
@@ -142,7 +146,7 @@ targets-campo-resultado/
 ├── practica.R          # ejercicios
 ├── check_setup.R       # comprobación del equipo
 ├── tools/              # scripts que generan los datos sintéticos
-└── docs/recursos.md    # targets, herramientas de ecoacústica y fototrampeo, lecturas
+└── docs/               # presentacion.pdf y recursos.md (targets, herramientas, lecturas)
 ```
 
 ## Cómo citar
@@ -164,5 +168,7 @@ doi:10.21105/joss.02959
 - **Código** (archivos `.R` y de configuración): [MIT](LICENSE).
 - **Textos, documentación y datos de ejemplo**:
   [CC BY 4.0](LICENSE-CONTENT.md).
+- Las **imágenes de terceros** de `docs/presentacion.pdf` mantienen su propia
+  licencia; los créditos están en la última diapositiva.
 
 Guillermo Fandos · Universidad Complutense de Madrid · gfandos@ucm.es

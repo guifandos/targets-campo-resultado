@@ -4,6 +4,13 @@ Se aplica a los textos, la documentación y los datos de ejemplo de este
 repositorio (archivos `.md`, `.csv` y `.WAV`). El código (archivos `.R` y de configuración)
 tiene licencia MIT: ver `LICENSE`.
 
+Quedan fuera de esta licencia las imágenes de terceros incluidas en
+`docs/presentacion.pdf`, que mantienen la suya: la tira de *PhD Comics*
+(Jorge Cham), la captura del tweet de Brianna (@fossilosophy), la figura de
+Open Science Collaboration (2015, *Science*), las fotos de Dodro (CC BY 4.0,
+Wikimedia Commons) y las siluetas de PhyloPic (CC0; zorzal: Zeynel Cebeci,
+CC BY 4.0). Los créditos completos están en la última diapositiva.
+
 ```
 Creative Commons Attribution 4.0 International (CC BY 4.0)
 
