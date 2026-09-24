@@ -97,7 +97,8 @@ salieron de la caché.
 
 ## Presentación
 
-Las diapositivas del taller, en PDF: [`docs/presentacion.pdf`](docs/presentacion.pdf).
+Las diapositivas del taller, en PDF, se publicarán aquí después del taller
+(1 de octubre de 2026).
 
 ## Ejercicios
 
@@ -158,7 +159,7 @@ targets-campo-resultado/
 ├── check_setup.R       # comprobación del equipo
 ├── renv.lock           # versiones de R y de los paquetes (renv sin activar)
 ├── tools/              # scripts que generan los datos sintéticos
-└── docs/               # presentacion.pdf y recursos.md (targets, herramientas, lecturas)
+└── docs/               # recursos.md (targets, herramientas, lecturas)
 ```
 
 ## Cómo citar
@@ -183,7 +184,8 @@ doi:10.21105/joss.02959
 - **Código** (archivos `.R` y de configuración): [MIT](LICENSE).
 - **Textos, documentación y datos de ejemplo**:
   [CC BY 4.0](LICENSE-CONTENT.md).
-- Las **imágenes de terceros** de `docs/presentacion.pdf` mantienen su propia
-  licencia; los créditos están en la última diapositiva.
+- Las **imágenes de terceros** de las diapositivas (`docs/presentacion.pdf`,
+  incluidas en la v1.0.0 de Zenodo) mantienen su propia licencia; los créditos
+  están en la última diapositiva.
 
 Guillermo Fandos · Universidad Complutense de Madrid · gfandos@ucm.es
